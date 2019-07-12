@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
+import Jumbotron from '../components/Jumbotron';
 // import myNavbar from "../components/myNavbar";
 
 class Home extends Component {
@@ -25,6 +26,7 @@ class Home extends Component {
             <Button variant="outline-light">Search</Button>
           </Form>
         </Navbar>
+        <Jumbotron fluid bg={'dark'} color={'light'} pageTitle={'Welcome to SNR Arts'} />
       </React.Fragment>
     );
   }
