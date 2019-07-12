@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import myNavbar from '../components/myNavbar';
 
-class Home extends Component {
+class Paintings extends Component {
   state = {};
 
   render() {
     return (
       <React.Fragment>
-        <p>This is rendering</p>
+        <myNavbar />
       </React.Fragment>
     );
   }
 }
 
 
-export default Home;
+export default Paintings;
