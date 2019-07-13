@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 
 export default () => (
   <div className="container">
-  <Carousel autoPlay>
+  <Carousel autoPlay infiniteLoop>
     <div>
       <img src="https://i.ibb.co/C8KQQhJ/mom-Painting1.jpg" />
       <p className="legend">Inner Peace Abstract</p>
