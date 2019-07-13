@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 
 export default () => (
   <div className="container">
-  <Carousel autoPlay infiniteLoop>
+  <Carousel autoPlay infiniteLoop useKeyboardArrows dynamicHeight>
     <div>
       <img src="https://i.ibb.co/C8KQQhJ/mom-Painting1.jpg" />
       <p className="legend">Inner Peace Abstract</p>
@@ -41,15 +41,15 @@ export default () => (
       <p className="legend">Lord Jesus</p>
     </div>
     <div>
-      <img src="https://i.ibb.co/MNrM6FH/mom-Same-Image10.jpg" />
+      <img src="https://i.ibb.co/HhZN37g/mom-Painting10.jpg" />
       <p className="legend">Mystical Spiral</p>
     </div>
     <div>
-      <img src="https://i.ibb.co/kh7nGgN/mom-Same-Image11.jpg" />
+      <img src="https://i.ibb.co/qdwLr51/mom-Painting11.jpg" />
       <p className="legend">Lord Ganesha Orange Theme</p>
     </div>
     <div>
-      <img src="https://i.ibb.co/6mZCLjP/mom-Same-Image12.jpg" />
+      <img src="https://i.ibb.co/4ppfd9d/mom-Painting12.jpg" />
       <p className="legend">Lord Ganesha In Nature</p>
     </div>
   </Carousel>
