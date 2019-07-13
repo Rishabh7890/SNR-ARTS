@@ -49,7 +49,7 @@ class Home extends Component {
       <React.Fragment>
         <Navbar bg="light" variant="light">
           <Navbar.Brand href="#home">SNR Arts</Navbar.Brand>
-          <Nav className="mr-auto">
+          <Nav className="ml-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/paintings">Paintings</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
