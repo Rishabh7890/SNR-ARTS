@@ -9,6 +9,7 @@ function Jumbotron(props) {
         bg-${props.bg || "default"}
         text-${props.color || "dark"}
         text-center
+        jumboCustom
         `}
     >
       <div className="container">

@@ -9,7 +9,35 @@ import Jumbotron from '../components/Jumbotron';
 // import myNavbar from "../components/myNavbar";
 
 class Home extends Component {
-  state = {};
+  state = {
+    searchTerm: ''
+  };
+
+  handleInputChange = event => {
+    const { name, value } = event.target;
+    this.setState({
+      [name]: value
+    });
+  };
+
+  handleFormSubmit = event => {
+    event.preventDefault();
+
+    searchPaintings(this.state.searchTerm)
+    .then(({ data: { items: paintingList } }) => {
+      const paintingListCleaned = paintingList.map(painting => {
+        return {
+          paintingID: painting.id,
+          title: painting.title,
+          description: painting.description,
+          image: painting.image
+        }
+      })
+      return this.setState({ paintingList: paintingListCleaned });
+    })
+    .then(this.retrievePainting)
+    .catch(err => console.log(err));
+  };
 
   render() {
     return (
@@ -22,7 +50,7 @@ class Home extends Component {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <FormControl type="text" placeholder="Search Paintings" className="mr-sm-2" />
             <Button variant="outline-light">Search</Button>
           </Form>
         </Navbar>
