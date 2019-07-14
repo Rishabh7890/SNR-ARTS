@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
-import myNavbar from '../components/myNavbar';
 
 class Paintings extends Component {
   state = {};
@@ -13,7 +12,7 @@ class Paintings extends Component {
     return (
       <React.Fragment>
         <Navbar bg="primary" variant="dark">
-          <Navbar.Brand href="#home">SNR Arts</Navbar.Brand>
+          <Navbar.Brand href="/">SNR Arts</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/paintings">Paintings</Nav.Link>
