@@ -1,7 +1,9 @@
 import React from "react";
+import "../App.css";
 
 function Jumbotron(props) {
   return (
+    <div className="container">
     <div
       className={`
         jumbotron
@@ -20,6 +22,9 @@ function Jumbotron(props) {
         </div>
       </div>
     </div>
+
+    </div>
+
   );
 }
 

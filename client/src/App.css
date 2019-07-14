@@ -1,0 +1,14 @@
+.navCustom {
+  font-family: 'Sorts Mill Goudy', serif;
+  box-shadow: 0 0 10px black;
+}
+
+.jumboCustom {
+  box-shadow: 0 0 10px black;
+  height: 100px;
+}
+
+body {
+  font-family: 'Sorts Mill Goudy', serif;
+  background-color: white;
+}

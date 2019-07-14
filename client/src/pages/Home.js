@@ -9,6 +9,8 @@ import Jumbotron from '../components/Jumbotron';
 import { render } from "react-dom";
 import Carousel from "../components/Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "../App.css";
+import Footer from "../components/Footer";
 // import myNavbar from "../components/myNavbar";
 
 class Home extends Component {
@@ -47,16 +49,17 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar bg="light" variant="light">
+        <Navbar className="navCustom" bg="light" variant="light">
           <Navbar.Brand href="#home">SNR Arts</Navbar.Brand>
-          <Nav className="ml-auto">
+          <Nav className="ml-auto navCust">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/paintings">Paintings</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar>
-        <Jumbotron fluid bg={'dark'} color={'light'} pageTitle={'Welcome to SNR Arts'} />
+        <Jumbotron fluid bg={'light'} color={'dark'} pageTitle={'Welcome to SNR Arts'} />
         <Carousel />
+        <Footer children={'Website Created By Rishabh Goel. All Works Of Art Created By Nishi Goel Copyright 2019'} />
       </React.Fragment>
     );
   }
