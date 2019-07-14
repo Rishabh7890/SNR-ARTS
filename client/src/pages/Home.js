@@ -15,7 +15,7 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar className="navCustom" bg="light" variant="light">
+        <Navbar className="navCustom d-flex justify-space-between" bg="light" variant="light">
           <Navbar.Brand href="/">SNR Arts</Navbar.Brand>
           <Nav className="ml-auto navCust">
             <Nav.Link href="/">Home</Nav.Link>

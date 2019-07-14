@@ -17,7 +17,7 @@ function Jumbotron(props) {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12">
-            <h1>{props.pageTitle}</h1>
+            <h1 className="display-4">{props.pageTitle}</h1>
           </div>
         </div>
       </div>
