@@ -2,8 +2,8 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 
 export default () => (
-  <div className="container">
-  <Carousel autoPlay infiniteLoop useKeyboardArrows dynamicHeight>
+  <div className="container my-5">
+  <Carousel showThumbs={false} autoPlay infiniteLoop useKeyboardArrows dynamicHeight>
     <div>
       <img src="https://i.ibb.co/C8KQQhJ/mom-Painting1.jpg" />
       <p className="legend">Inner Peace Abstract</p>
