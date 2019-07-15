@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import "../App.css";
 import Footer from "../components/Footer";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
+import cardInfo from "../paintings.json";
 
 class Paintings extends Component {
-  state = {};
+  state = {
+    cardInfo: [...cardInfo]
+  };
 
   render() {
     return (
@@ -20,6 +21,23 @@ class Paintings extends Component {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar>
+        <div className="container-fluid">
+          <div className="row align-items-center justify-content-between">
+            {/* print out cards here */}
+
+            {this.state.cardInfo.map(card => {
+              return (
+                <div className="col-12 col-sm-3 col-md-2 my-3" key={card.id}>
+                  <img
+                    src={card.image}
+                    alt={card.name}
+                    className="img-fluid img-thumbnail rounded indvCard bg-dark"
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </div>
 
         <Footer children={'Website Created By Rishabh Goel. All Works Of Art Created By Nishi Goel Copyright 2019'} />
       </React.Fragment>
