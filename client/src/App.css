@@ -13,3 +13,7 @@ body {
   font-family: 'Sorts Mill Goudy', serif;
   background-color: white;
 }
+
+.indvCard:last-of-type:hover {
+  cursor: pointer;
+}
