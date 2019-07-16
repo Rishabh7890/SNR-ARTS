@@ -1,73 +1,73 @@
 [
   {
     "id": 1,
-    "image": "",
+    "image": "./images/momPainting1.jpg",
     "name": "Inner Peace Abstract",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "",
+    "image": "./images/momPainting2.jpg",
     "name": "Lord Ganesha Green Theme",
     "clicked": false
   },
   {
     "id": 3,
-    "image": "",
+    "image": "./images/momPainting3.jpg",
     "name": "Lord Krishna",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "",
+    "image": "./images/momPainting4.jpg",
     "name": "Desert Journey",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "",
+    "image": "./images/momPainting5.jpg",
     "name": "Mystical Clouds",
     "clicked": false
   },
   {
     "id": 6,
-    "image": "",
+    "image": "./images/momPainting6.jpg",
     "name": "Night City Skyline",
     "clicked": false
   },
   {
     "id": 7,
-    "image": "",
+    "image": "./images/momPainting7.jpg",
     "name": "Sitar Maiden",
     "clicked": false
   },
   {
     "id": 8,
-    "image": "",
+    "image": "./images/momPainting8.jpg",
     "name": "Yoga",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "",
+    "image": "./images/momPainting9.jpg",
     "name": "Lord Jesus",
     "clicked": false
   },
   {
     "id": 10,
-    "image": "",
+    "image": "./images/momPainting10.jpg",
     "name": "Mystical Spiral",
     "clicked": false
   },
   {
     "id": 11,
-    "image": "",
+    "image": "./images/momPainting11.jpg",
     "name": "Lord Ganesha Orange Theme",
     "clicked": false
   },
   {
     "id": 12,
-    "image": "",
+    "image": "./images/momPainting12.jpg",
     "name": "Lord Ganesha In Nature",
     "clicked": false
   }
