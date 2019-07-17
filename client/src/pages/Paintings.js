@@ -11,11 +11,6 @@ class Paintings extends Component {
     cardInfo: [...cardInfo]
   };
 
-  goToPaintingInfo = (cardInfo) => {
-    localStorage.setItem("selectedPainting", cardInfo);
-    this.props.history.push("/paintingInfo/:id");
-  }
-
   render() {
     return (
       <React.Fragment>
@@ -34,12 +29,18 @@ class Paintings extends Component {
             {this.state.cardInfo.map(card => {
               return (
                 <div className="col-12 col-sm-3 col-md-2 my-3" key={card.id}>
+                  <div className="card">
                   <img
                     src={card.image}
                     alt={card.name}
                     className="img-fluid img-thumbnail rounded indvCard bg-dark"
-                    onClick = {()=>this.goToPaintingInfo(card.id)}
                   />
+                  <div className="card-body">
+                  <h5 className="card-title">{card.name}</h5>
+                  <p class="card-text">{card.description}</p>
+
+                  </div>
+                  </div>
                 </div>
               );
             })}

@@ -3,72 +3,84 @@
     "id": 1,
     "image": "./images/momPainting1.jpg",
     "name": "Inner Peace Abstract",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 2,
     "image": "./images/momPainting2.jpg",
     "name": "Lord Ganesha Green Theme",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 3,
     "image": "./images/momPainting3.jpg",
     "name": "Lord Krishna",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 4,
     "image": "./images/momPainting4.jpg",
     "name": "Desert Journey",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 5,
     "image": "./images/momPainting5.jpg",
     "name": "Mystical Clouds",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 6,
     "image": "./images/momPainting6.jpg",
     "name": "Night City Skyline",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 7,
     "image": "./images/momPainting7.jpg",
     "name": "Sitar Maiden",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 8,
     "image": "./images/momPainting8.jpg",
     "name": "Yoga",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 9,
     "image": "./images/momPainting9.jpg",
     "name": "Lord Jesus",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 10,
     "image": "./images/momPainting10.jpg",
     "name": "Mystical Spiral",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 11,
     "image": "./images/momPainting11.jpg",
     "name": "Lord Ganesha Orange Theme",
+    "description": "Description of painting will go here...",
     "clicked": false
   },
   {
     "id": 12,
     "image": "./images/momPainting12.jpg",
     "name": "Lord Ganesha In Nature",
+    "description": "Description of painting will go here...",
     "clicked": false
   }
 ]
