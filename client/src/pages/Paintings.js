@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from "react-router";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "../App.css";
@@ -9,6 +10,11 @@ class Paintings extends Component {
   state = {
     cardInfo: [...cardInfo]
   };
+
+  goToPaintingInfo = (cardInfo) => {
+    localStorage.setItem("selectedPainting", cardInfo);
+    this.props.history.push("/paintingInfo/:id");
+  }
 
   render() {
     return (
@@ -32,6 +38,7 @@ class Paintings extends Component {
                     src={card.image}
                     alt={card.name}
                     className="img-fluid img-thumbnail rounded indvCard bg-dark"
+                    onClick = {()=>this.goToPaintingInfo(card.id)}
                   />
                 </div>
               );
