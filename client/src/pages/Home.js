@@ -24,6 +24,10 @@ class Home extends Component {
           </Nav>
         </Navbar>
         <Jumbotron fluid bg={'light'} color={'dark'} pageTitle={'Welcome to SNR Arts'} />
+        <div className="container text-center">
+        Below is a slideshow of all of our current paintings in their full resolution. Please see the <i>Paintings</i> page for the entire list with descriptions and prices. Thank you for visiting SNR Arts!
+
+        </div>
         <Carousel />
         <Footer children={'Website Created By Rishabh Goel. All Works Of Art Created By Nishi Goel Copyright 2019'} />
       </React.Fragment>

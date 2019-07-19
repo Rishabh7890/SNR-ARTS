@@ -11,8 +11,8 @@ class PaintingInfo extends React.Component {
     return(
       <div>
          <img src={this.state.cardInfo.image}
-              alt={this.state.cardInfo.name}
-              className= "img-fluid img-thumbnail rounded bg-dark"
+              alt="image"
+              // className= "img-fluid img-thumbnail rounded bg-dark"
          />
       </div>
     )
