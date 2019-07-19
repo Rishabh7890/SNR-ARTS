@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 class PaintingInfo extends React.Component {
 
@@ -10,8 +11,8 @@ class PaintingInfo extends React.Component {
     return(
       <div>
          <img src={this.state.card.image}
-              alt={this.state.card.name}
-              className="img-fluid"
+              alt="image"
+              className= "img-fluid img-thumbnail rounded indvCard bg-dark"
          />
       </div>
     )

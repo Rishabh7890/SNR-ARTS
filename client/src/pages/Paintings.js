@@ -6,6 +6,7 @@ import "../App.css";
 import Footer from "../components/Footer";
 import cardInfo from "../paintings.json";
 
+
 class Paintings extends Component {
   state = {
     cardInfo: [...cardInfo]
