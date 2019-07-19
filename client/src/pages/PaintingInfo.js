@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import cardInfo from "../paintings.json";
 
 class PaintingInfo extends React.Component {
 
@@ -9,12 +8,12 @@ class PaintingInfo extends React.Component {
  }
  
  render(){
-   console.log(card);
+   console.log(localStorage.getItem('selectedPainting'));
     return(
       <div>
-         <img src={require(this.state.card.image)}
-              alt="image"
-              // className= "img-fluid img-thumbnail rounded bg-dark"
+         <img src={this.state.card.image}
+              alt={this.state.card.name}
+              className= "img-fluid img-thumbnail rounded bg-dark"
          />
       </div>
     )
