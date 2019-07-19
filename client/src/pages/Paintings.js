@@ -15,7 +15,6 @@ class Paintings extends Component {
   goToPaintingInfo = (cardInfo) => {
     localStorage.setItem("selectedPainting", cardInfo);
     this.props.history.push(`/paintingInfo/${cardInfo.id}`);
-    // return <Redirect to={`/paintingInfo/${cardInfo.id}`} />;
   }
 
   render() {
