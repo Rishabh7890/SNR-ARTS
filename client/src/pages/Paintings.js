@@ -28,6 +28,10 @@ class Paintings extends Component {
           </Nav>
         </Navbar>
         <div className="container-fluid">
+          <div className="text-center mt-5">
+          <p>This is currently our entire set of paintings. Click on a painting to enlarge it to its full resolution.</p>
+
+          </div>
           <div className="row align-items-center justify-content-between">
             {/* print out cards here */}
 

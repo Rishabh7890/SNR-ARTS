@@ -25,7 +25,7 @@ class Home extends Component {
         </Navbar>
         <Jumbotron fluid bg={'light'} color={'dark'} pageTitle={'Welcome to SNR Arts'} />
         <div className="container text-center">
-        Below is a slideshow of all of our current paintings in their full resolution. Please see the <i>Paintings</i> page for the entire list with descriptions and prices. Thank you for visiting SNR Arts!
+        Below is a carousel of all of our current paintings. Please see the <i>Paintings</i> page to see the entire list of paintings in their full resoultion with detailed descriptions and prices. Thank you for visiting SNR Arts!
 
         </div>
         <Carousel />
