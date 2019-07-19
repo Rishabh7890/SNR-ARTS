@@ -4,7 +4,7 @@ import "../App.css";
 class PaintingInfo extends React.Component {
 
   state={
-    card: localStorage.getItem('selectedPainting')
+    card: JSON.parse(localStorage.getItem("selectedPainting"))
  }
  
  render(){

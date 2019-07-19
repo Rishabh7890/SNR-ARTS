@@ -12,7 +12,7 @@ class Paintings extends Component {
   };
 
   goToPaintingInfo = (cardInfo) => {
-    localStorage.setItem("selectedPainting", cardInfo);
+    localStorage.setItem("selectedPainting", JSON.stringify(cardInfo));
     this.props.history.push(`/paintingInfo/${cardInfo.id}`);
   }
 
