@@ -9,6 +9,7 @@ class PaintingInfo extends React.Component {
  
  render(){
    console.log(localStorage.getItem('selectedPainting'));
+   console.log(JSON.stringify(this.state.card))
     return(
       <div>
          <img src={this.state.card.image}
